@@ -1,6 +1,6 @@
 <?php
 
-namespace Scottybo\LaravelGoogleMyBusiness;
+namespace Skuads\LaravelGoogleMyBusiness;
 
 use Google_Client;
 use Illuminate\Support\ServiceProvider;
@@ -15,6 +15,7 @@ class GoogleMyBusinessServiceProvider extends ServiceProvider
     public function boot()
     {
     }
+
     /**
      * Register the application services.
      *

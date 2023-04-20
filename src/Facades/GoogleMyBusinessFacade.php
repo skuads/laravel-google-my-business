@@ -1,6 +1,6 @@
 <?php
 
-namespace Scottybo\LaravelGoogleMyBusiness\Facades;
+namespace Skuads\LaravelGoogleMyBusiness\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class GoogleMyBusinessFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'Scottybo\LaravelGoogleMyBusiness\GoogleMyBusiness';
+        return 'Skuads\LaravelGoogleMyBusiness\GoogleMyBusiness';
     }
 }
