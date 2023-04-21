@@ -2,7 +2,7 @@
 
 namespace Skuads\LaravelGoogleMyBusiness;
 
-use Google\Client as GoogleClient;
+use Google_Client;
 use Google_Collection;
 use Google_Model;
 use Google_Service;
@@ -47,7 +47,7 @@ class GoogleMyBusiness extends Google_Service
     /**
      * Constructs the internal representation of the MyBusiness service.
      */
-    public function __construct(GoogleClient $client)
+    public function __construct(Google_Client $client)
     {
         parent::__construct($client);
 
